@@ -1,0 +1,63 @@
+/** Add css rules here for your application. */
+
+body {
+    padding: 10px;
+}
+
+.watchList {
+    border: 1px solid silver;
+    padding: 2px;
+    margin-bottom: 6px;
+}
+
+.watchList tr:first-child {
+    background-color: #2062B8;
+    color: white;
+    font-style: italic;
+}
+
+.watchList tr:not(:first-child) td:nth-child(2),
+.watchList tr:not(:first-child) td:nth-child(3) {
+    text-align: right;
+    width: 8em;
+}
+
+.watchList tr:not(:first-child) td:nth-child(4) {
+    text-align: center;
+}
+
+.addPanel {
+    margin: 10px 0px 15px 0px;
+}
+
+.watchList tr:not(:first-child) td:nth-child(4) .gwt-Button {
+    width: 50px;
+    text-align: center;
+}
+
+.gwt-Button {
+    background: transparent url(images/hborder.png) repeat-x scroll 0px -27px;
+    border: 1px outset #CCCCCC;
+    cursor: pointer;
+    font-size: small;
+    margin: 0pt;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+
+.noChange {
+    color: black;
+}
+
+.positiveChange {
+    color: green;
+}
+
+.negativeChange {
+    color: red;
+}
+
+.errorMessage {
+    color: red;
+}
+
